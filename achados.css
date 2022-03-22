@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: #fff;
+}
+
+header {
+    text-align: center;
+    background: rgb(172, 241, 172);
+    padding: 30px;
+}
+
+header h1 {
+    font-size: 50px;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: rgb(84, 224, 84);
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+ 
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 17px;
+    display: block;
+}
+ 
+nav li {
+    float: left;
+}
+
+nav a:hover {
+    background-color: white;
+    color:rgb(84, 224, 84)
+}
+
+.tab {
+    background-color: rgb(223, 219, 219);
+    border: 1px solid rgb(145, 143, 143);
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+    overflow: auto;
+}
+
+.tab button {
+    background-color: rgb(223, 219, 219);
+    border: none;
+    outline: none;
+    border-radius: 5px 5px 0 0;
+    cursor: pointer;
+    padding: 10px 16px;
+    font-weight: bold;
+    color: #333;
+    margin: 3px 2px 0 2px;
+    float: left;
+}
+
+.tab button:hover {
+    background-color: #fbfbfb;
+}
+
+.tab button.ativo {
+    background-color: white;
+    color: rgb(84, 224, 84);
+
+}
+
+.conteudo {
+    border: 1px solid #ccc;
+    border-top: none;
+    padding: 6px 12px;
+    display: none;
+}
+
+
+footer {
+    padding: 20px;
+    background: rgb(84, 224, 84);
+    color: white;
+    margin-top: 20px;
+    display: table;
+    width: 100%;
+}
+
+footer dl, footer p {
+    display: table-cell;
+    vertical-align: middle;    
+}
+
+footer dt {
+    font-weight: bold;
+}
+
+footer dd {
+    margin-left: 0;
+}
+
+footer p {
+    text-align: right;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 768px) {
+    section, aside {
+        width: 100%;
+        padding: 0%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    nav li {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+

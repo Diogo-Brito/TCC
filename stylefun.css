@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: #f1f1f1;
+}
+
+header {
+    text-align: center;
+    background: rgb(110, 191, 204);
+    padding: 30px;
+}
+
+header h1 {
+    font-size: 50px;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: rgb(80, 155, 168);
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+ 
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 17px;
+    display: block;
+}
+ 
+nav li {
+    float: left;
+}
+
+nav a:hover {
+    background-color: white;
+    color: rgb(80, 155, 168);
+}
+
+.row {
+    padding: 0 10px;
+    display: table;
+    width: 100%;
+}
+
+section {
+    float: left;
+    width: 100%;
+}
+
+
+.card {
+    background-color: white;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+footer {
+    padding: 20px;
+    background: rgb(84, 224, 84);
+    color: white;
+    margin-top: 20px;
+    display: table;
+    width: 100%;
+}
+
+footer dl, footer p {
+    display: table-cell;
+    vertical-align: middle;    
+}
+
+footer dt {
+    font-weight: bold;
+}
+
+footer dd {
+    margin-left: 0;
+}
+
+footer p {
+    text-align: right;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 768px) {
+    section, aside {
+        width: 100%;
+        padding: 0%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    nav li {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+
